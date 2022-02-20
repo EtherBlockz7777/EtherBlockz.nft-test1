@@ -2200,6 +2200,8 @@ model-viewer {
   width: auto;
   height: 700px;
   margin: 0 auto;
+  border: 5px solid #49F262;
+  border-radius: 20px;
 }
 
 
@@ -2761,4 +2763,12 @@ FAQ
 .panel-heading {
   cursor: pointer;
   background-color: #49F262;
+}
+
+
+
+
+
+.ar-button{
+  background-color: #F2F2F2;
 }
