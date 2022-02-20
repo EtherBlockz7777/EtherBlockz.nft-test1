@@ -21,12 +21,15 @@
 		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 -->
 
-
+<!--
 	<script type="module" src="https://unpkg.com/@google/model-viewer@0.10.0/dist/model-viewer.js">
 	</script>
 
 	<script nomodule src="https://unpkg.com/@google/model-viewer@0.10.0/dist/model-viewer-legacy.js">
 	</script>
+-->
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
 
 	<!-- Mobile Specific Meta
 		================================================== -->
@@ -257,7 +260,7 @@ Start Counter Section
 	<section id="counter" class="parallax-section bg-1 section ">
 		<div class="container-fluid">
 			<div class="row">
-			
+
 
 			</div> <!-- end row -->
 		</div> <!-- end container -->
@@ -279,7 +282,13 @@ Start Counter Section
 
 
 			<!-- /section title -->
-			<model-viewer disable-zoom camera-controls auto-rotate  class="col-md-12" src="scene.glb" ar ios-src="scene.usdz" style="background-color: unset;"></model-viewer>
+			<!--
+			<model-viewer disable-zoom camera-controls auto-rotate class="col-md-12" src="scene.glb" ar ios-src="scene.usdz" style="background-color: unset;"></model-viewer>
+			-->
+			<model-viewer bounds="tight" src="scene.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls disable-zoom environment-image="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="-83.69deg 80.94deg auto" auto-rotate>
+
+			</model-viewer>
+			
 			<div class="col-md-12 text-center">
 				<a class="neon-button" href="#">
 					<span></span>
@@ -371,7 +380,7 @@ Start Counter Section
 					<div class="border2"></div>
 				</div>
 				<h2 class="col-md-12 text-center" style="color: #0D0D0D;">0%</h2>
-				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms" >
+				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms">
 					<div class=" col-md-12 text-center">
 						<h1 class="col-lg-12 " style="color: #0D0D0D;">yoyoy</h1>
 						<p class="col-md-6 col-md-12 col-sm-12">Lorem ipsum dolor sit amet, consectetur..
@@ -392,7 +401,7 @@ Start Counter Section
 					</div>
 				</div>
 				<h2 class="col-md-12 text-center" style="color: #0D0D0D;">20%</h2>
-				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms" >
+				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms">
 					<div class=" col-md-12 text-center">
 						<h1 class="col-lg-12" style="color: #0D0D0D;">yoyoy</h1>
 						<img class="img-responsive col-md-6 col-md-12 col-sm-12" src="images/team/team-1.png" alt="Meghna">
@@ -408,13 +417,13 @@ Start Counter Section
 							Sed id lorem eget orci dictum facilisis vel id tellus. Nullam
 							iaculis arcu at mauris dapibus consectetur.
 						</p>
-						
+
 
 
 					</div>
 				</div>
 				<h2 class="col-md-12 text-center" style="color: #0D0D0D;">40%</h2>
-				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms" >
+				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms">
 					<div class=" col-md-12 text-center">
 						<h1 class="col-lg-12" style="color: #0D0D0D;">yoyoy</h1>
 						<p class="col-md-6 col-md-12 col-sm-12">Lorem ipsum dolor sit amet, consectetur..
@@ -435,7 +444,7 @@ Start Counter Section
 					</div>
 				</div>
 				<h2 class="col-md-12 text-center" style="color: #0D0D0D;">60%</h2>
-				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms" >
+				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms">
 					<div class=" col-md-12 text-center">
 						<h1 class="col-lg-12" style="color: #0D0D0D;">yoyoy</h1>
 						<img class="img-responsive col-md-6 col-md-12 col-sm-12" src="images/team/team-1.png" alt="Meghna">
@@ -451,12 +460,12 @@ Start Counter Section
 							Sed id lorem eget orci dictum facilisis vel id tellus. Nullam
 							iaculis arcu at mauris dapibus consectetur.
 						</p>
-					
+
 
 					</div>
 				</div>
 				<h2 class="col-md-12 text-center" style="color: #0D0D0D;">80%</h2>
-				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms" >
+				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms">
 					<div class=" col-md-12 text-center">
 						<h1 class="col-lg-12" style="color: #0D0D0D;">yoyoy</h1>
 						<p class="col-md-6 col-md-12 col-sm-12">Lorem ipsum dolor sit amet, consectetur..
@@ -477,7 +486,7 @@ Start Counter Section
 					</div>
 				</div>
 				<h2 class="col-md-12 text-center" style="color: #0D0D0D;">100%</h2>
-				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms" >
+				<div class="container77  roadmap-box wow fadeInDown" data-wow-duration="2000ms">
 					<div class=" col-md-12 text-center">
 						<h1 class="col-lg-12" style="color: #0D0D0D;">yoyoy</h1>
 						<img class="img-responsive col-md-6 col-md-12 col-sm-12" src="images/team/team-1.png" alt="Meghna">
@@ -493,7 +502,7 @@ Start Counter Section
 							Sed id lorem eget orci dictum facilisis vel id tellus. Nullam
 							iaculis arcu at mauris dapibus consectetur.
 						</p>
-					
+
 					</div>
 				</div>
 			</div>
