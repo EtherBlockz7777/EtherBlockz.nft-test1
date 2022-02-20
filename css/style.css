@@ -2229,7 +2229,7 @@ Roadmap
 }
 
 .roadmap-box {
-  width: 70%;
+  width: 80%;
   height: 50%;
   border-radius: 20px;
   background: #fafafa;
@@ -2268,6 +2268,17 @@ Neon Button
 }
 
 .neon-button:hover {
+  background: #72E5F2;
+  color: #050801;
+  box-shadow: 0 0 5px #72E5F2,
+    0 0 25px #72E5F2,
+    0 0 50px #72E5F2,
+    0 0 200px #72E5F2;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.neon-button:hover::after {
+  content: attr(data-hover);
   background: #72E5F2;
   color: #050801;
   box-shadow: 0 0 5px #72E5F2,
