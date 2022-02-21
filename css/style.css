@@ -686,12 +686,12 @@ a:hover {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-image: url('../images/banner/header-bg.png');
+  background-image: url('../images/banner/header-bg-green.png');
 }
 
 @media (max-width: 820px) {
   .hero-area {
-    background-image: url('../images/banner/header-bg-mobile.png');
+    background-image: url('../images/banner/header-bg-green-mobile.png');
   }
 }
 
