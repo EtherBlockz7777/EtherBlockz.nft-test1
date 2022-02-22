@@ -2194,7 +2194,9 @@ blockquote {
   margin: 0;
 }
 
-/*# 3D Model */
+/*=================================================================
+3D Model
+==================================================================*/
 
 model-viewer {
   width: auto;
@@ -2204,6 +2206,9 @@ model-viewer {
   border-radius: 20px;
 }
 
+.ar-button{
+  background-color: #F2F2F2;
+}
 
 /*# sourceMappingURL=maps/style.css.map */
 /*=================================================================
@@ -2776,10 +2781,54 @@ FAQ
   background-color: #49F262;
 }
 
+/*=================================================================
+Mint-Map
+==================================================================*/
 
-
-
-
-.ar-button{
-  background-color: #F2F2F2;
+.mintmap-box{
+  margin-top: 10%;
 }
+
+.mintmap-box{
+  background-color: #0D0D0D;
+  border: 5px dashed #2c9091;
+  border-radius: 20px;
+}
+
+
+/*=================================================================
+ Mint Map
+==================================================================*/
+.mint-map .block {
+  background: #0D0D0D;
+  padding: 30px;
+  border: 2px dashed #49F262;
+  transition: .5s all;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+
+.mint-map .block .icon-box {
+  position: relative;
+  width: 160px;
+  height: 92.38px;
+  background-color: transparent;
+  margin: 46.19px auto 60px;
+  padding: 20px 0;
+  border-left: 2px solid rgb(236, 239, 241);
+  border-right: 2px solid rgb(236, 239, 241);
+  font-size: 50px;
+  -webkit-transform: translateZ(0px);
+  transform: translateZ(0px);
+  transition-duration: 0.3s;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+
+.mint-map .block .icon-box h3 p{
+  color: #F2F2F2;
+}
+
