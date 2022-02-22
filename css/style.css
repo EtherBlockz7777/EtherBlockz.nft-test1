@@ -14,7 +14,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 Mine 
 ==================================================================*/
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Holtwood+One+SC&family=Press+Start+2P&family=Space+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 html {
   background-color: #0D0D0D;
   color: #0D0D0D;
@@ -34,7 +34,8 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: 'Holtwood One SC', serif;
+  font-family: 'Black Ops One', cursive;
+  /*font-family: 'Holtwood One SC', serif;*/
   color: #ebebeb;
 }
 
@@ -676,7 +677,6 @@ a:hover {
   background-size: cover;
   background-attachment: fixed;
 }
-
 
 .hero-area {
   background-size: cover;
