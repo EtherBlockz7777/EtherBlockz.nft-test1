@@ -2226,15 +2226,10 @@ Roadmap
   height: 100vh;
 }
 
-.Roadmap h2 {
-
-  margin-top: 200px;
-  margin-bottom: 50px;
-
-}
 
 .roadmap-box {
-  width: 80%;
+  margin-top: 10vh;
+  width: 50%;
   height: 50%;
   border-radius: 20px;
   background: #fafafa;
@@ -2243,6 +2238,24 @@ Roadmap
     0 0 0 #72e5f27c inset,
     2px 2px 2px #ffffff inset;
 }
+
+
+
+@media (max-width: 768px) {
+  .roadmap-box {
+    margin-top: 10vh;
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+    background: #fafafa;
+    box-shadow: 40px 40px 40px #72e5f27c,
+      0 0 0 #ffffff,
+      0 0 0 #72e5f27c inset,
+      2px 2px 2px #ffffff inset;
+  }
+  
+}
+
 
 
 
@@ -2832,3 +2845,15 @@ Mint-Map
   color: #F2F2F2;
 }
 
+.short-facts-3d{
+  color: #F2F2F2; 
+  background-color: #0D0D0D;
+   border: 3px solid #49F262; 
+   border-radius: 5px ;
+}
+.short-facts-3d:hover{
+  color: #0D0D0D; 
+  background-color: #F2F2F2;
+   border: 3px solid #72E5F2; 
+   border-radius: 5px ;
+}
