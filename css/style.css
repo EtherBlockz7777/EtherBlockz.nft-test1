@@ -2850,12 +2850,14 @@ Short facts
 
 
 .short-facts-3d{
+  
   color: #F2F2F2; 
   background-color: #0D0D0D;
    border: 3px solid #49F262; 
    border-radius: 5px ;
 }
 .short-facts-3d:hover{
+  
   color: #0D0D0D; 
   background-color: #F2F2F2;
    border: 3px solid #72E5F2; 
